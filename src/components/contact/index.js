@@ -19,7 +19,7 @@ const Contact = ({ id, name, phone, email, onDelete, onEdit }) => (
       <RemoveAndCancel type="button" onClick={() => {onDelete(id)}}>
         <FaRegTrashCan />
         <span>
-          Cancelar
+          Apagar
         </span>
       </RemoveAndCancel>
       <Separator />
